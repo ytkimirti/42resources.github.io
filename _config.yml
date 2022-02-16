@@ -23,7 +23,7 @@ language: tr
 # zh-tw: 繁體中文 (Traditional Chinese)
 # ko : 한국어 (Korean)
 
-# analytics: # the Google Analytics property ID, e.g. UA-XXXXX-Y
+analytics: G-2YFPMJ2S0L # the Google Analytics property ID, e.g. UA-XXXXX-Y
 
 jekyll_analytics:
   GoogleAnalytics:
