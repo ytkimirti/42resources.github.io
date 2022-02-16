@@ -6,7 +6,7 @@ title: 42 Notları
 email: 42istanbulacikkaynak@gmail.com
 name: 42 Notları
 description: >- # this means to ignore newlines until "baseurl:"
-  Don''t Panic
+  Don't Panic
 keywords: [c açık_kaynak unix]
 baseurl: '' # the subpath of your site, e.g. /`blog
 url: 'https://42resources.github.io' # the base hostname & protocol for your site, e.g. http://example.com
