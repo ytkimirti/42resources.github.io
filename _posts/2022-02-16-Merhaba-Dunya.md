@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "42 Notlara hoş geldiniz"
-name: Abdulselam Karahan
+author: Abdulselam Karahan
 category: [Örnek Taslağı]
 tag: [örnek taslağı]
 ---
