@@ -8,7 +8,7 @@ tag: [örnek taslağı]
 
 # Yeni post oluşturma
 
-Yeni post oluşturmak için **\_posts** klasörün içine **YIL-AY-GÜN-başlık.md** şeklinde dosya oluşturmanız gerekiyor.
+Yeni post oluşturmak için **[\_posts](/_posts/)** klasörün içine **YIL-AY-GÜN-başlık.md** şeklinde dosya oluşturmanız gerekiyor.
 
 ## Örneğin
 
@@ -22,7 +22,7 @@ Postun başına meta bilgi ekleyerek başlık, kategori veya kategoriler, tag ve
 
 ## Dikkatli olun!
 
-Eğer sadece bir kategori eklemek isterseniz **category** opsiyonu kullanınız aksi takdirde **categories** kullandığınız zaman boşluk kategori ayıracı olarak algılanıyor.
+Eğer sadece bir kategori eklemek isterseniz **category** opsiyonu kullanınız aksi takdirde **categories** kullandığınız zaman boşluk kategori ayıracı olarak algılanıyor. Tag'ler için aynı şey söz konusu.
 
 ```text
 ---
@@ -41,9 +41,20 @@ tags: [tag_ismi1 tag_ismi2 ...]
 Umarım beğenirsiniz!
 ```
 
+# Yazar olarak kendini ekleme
+
+Kendini yazar olarak eklemeniz için ilk önce **[şurada](/_data/authors.yml/)** kendinizi ekleyin. Post yazdığınız zaman şu şekil kendinizi ekleyebilirsiniz:
+
+```text
+layout: post
+title:  "Merhaba Dunya!"
+category: [kategori ismi]
+author: [kaydettiğiniz nikinizi yazın, isim otomatik olarak gelir]
+```
+
 # Resim ve PDF ekleme
 
-Resim veya PDF eklemek için önce onu **assets** klasörüne yüklemeniz gerekiyor. Sonra yazdığınız postun içine şu şekilde eklemeler yapmanız gerekiyor:
+Resim veya PDF eklemek için önce onu **[assets](/assets/)** klasörüne yüklemeniz gerekiyor. Sonra yazdığınız postun içine şu şekilde eklemeler yapmanız gerekiyor:
 
 ```text
 ![resim için yorum](/assets/screenshot.jpg)
