@@ -3,11 +3,11 @@
 # This is the configuration file for your blog, please change these items after forked.
 
 title: 42 Notları
-email: your-email@example.com
-name: 42 Öğrencisi
+email: 42istanbulacikkaynak@gmail.com
+name: 42 Notları
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here.
-keywords: [Your keywords]
+  Don''t Panic
+keywords: [c açık_kaynak unix]
 baseurl: '' # the subpath of your site, e.g. /`blog
 url: 'https://42resources.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 domain: '42resources.github.io' # the domain name for your site, e.g. example.com
