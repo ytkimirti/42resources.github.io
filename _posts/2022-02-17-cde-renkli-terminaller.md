@@ -85,6 +85,7 @@ int main(void)
     printf(RED "Ben kırmızı, " RST "ben beyaz, " MAG "ben de magenta O.O\n" RST);
 }
 ```
+![ex2](/assets/cde_renkli_terminaller/ex2.png)
 
 ## Moulinette notları
 
